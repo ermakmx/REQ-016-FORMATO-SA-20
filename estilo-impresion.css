@@ -1,0 +1,20 @@
+@media print {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+   .noimprimible {
+      display: none;
+    }
+
+    #contenido-no-imprimible {
+      display: none;
+    }
+  } 
+  @page {
+    size: A4;
+    margin: 1cm;
+    orientation: landscape;
+
+}
